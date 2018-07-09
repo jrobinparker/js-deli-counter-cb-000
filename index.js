@@ -30,6 +30,6 @@ function currentLine(katzDeli, person) {
       var name = person 
       line.push(placeInLine + person)
     }
-    return "The line is currently:" + line.toString
+    return "The line is currently:" + line.toString()
   }
 }
