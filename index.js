@@ -3,10 +3,10 @@ var katzDeli = []
 function takeANumber(katzDeli, person) {
   if (katzDeli.length === 0) {
     katzDeli.unshift(person)
-    return "Welcome, " + person + "." You are number 1 in line."
+    return "Welcome, " + person + ". You are number 1 in line."
   } else {
     katzDeli.push(person)
-    return "Welcome, ${person}. You are number ${person[i]} in line."
+    return "Welcome, ". You are number ${person[i]} in line."
   }
 }
 
