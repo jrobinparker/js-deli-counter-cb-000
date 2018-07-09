@@ -25,9 +25,11 @@ function currentLine(katzDeli, person) {
   if (katzDeli.length === 0) {
     return "The line is currently empty."
   } else {
-    var placeInLine = katzDeli.indexOf(person) + 1
-    line.push(placeInLine)
+    for (var i = 0; katzDeli.length < 0; i++) {
+      var placeInLine = katzDeli.indexOf(person) + 1
+      var name = person 
+      line.push(placeInLine + person)
+    }
+    return "The line is currently:" + line.toString
   }
-      return `The line is currently: ${line}`
-
 }
