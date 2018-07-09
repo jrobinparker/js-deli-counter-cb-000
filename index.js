@@ -30,7 +30,7 @@ function currentLine(katzDeli, person) {
       line.push(theLine)
     }
     var line
-    return "The line is currently: " + line
+    return "The line is currently: " + line.join(" ")
 
   }
 }
