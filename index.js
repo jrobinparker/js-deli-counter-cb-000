@@ -27,6 +27,6 @@ function currentLine(katzDeli, person) {
   } else {
     var placeInLine = katzDeli.indexOf(person) + 1
     line.push(placeInLine)
-    return "The line is currently:" + line.join(". ")
+    return "The line is currently:" + line
   }
 }
