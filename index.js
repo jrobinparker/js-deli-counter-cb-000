@@ -29,7 +29,6 @@ function currentLine(katzDeli) {
       var theLine = katzDeli.join(" ")
       line.push(theLine)
     }
-    var line
     return "The line is currently: " + line.join(" ")
 
   }
