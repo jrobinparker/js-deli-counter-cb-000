@@ -24,7 +24,7 @@ function currentLine(katzDeli, person) {
   var line = []
   if (katzDeli.length === 0) {
     return "The line is currently empty."
-  } else {
+  } else if (katzDeli.length > 0) {
     for (var i = 0; katzDeli.length < 0; i++) {
       var placeInLine = katzDeli.indexOf(person) + 1
       line.push(placeInLine)
