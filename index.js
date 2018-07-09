@@ -29,7 +29,7 @@ function currentLine(katzDeli, person) {
       line.push(person)
     }
     var peopleInLine = line.join(" ")
-    return "The line is currently: " + line.join(" ")
+    return "The line is currently: " + peopleInLine
 
   }
 }
