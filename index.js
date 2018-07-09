@@ -6,7 +6,7 @@ function takeANumber(katzDeli, person) {
     return "Welcome, " + person + ". You are number 1 in line."
   } else {
     katzDeli.push(person)
-    return "Welcome, " + person + ". You are number " + person + " in line."
+    return "Welcome, " + person + ". You are number " + katzDeli.indexOf(person) + " in line."
   }
 }
 
