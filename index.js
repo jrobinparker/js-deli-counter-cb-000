@@ -28,6 +28,6 @@ function currentLine(katzDeli, person) {
     for (var i = 0; katzDeli.length < 0; i++) {
       line.push(person)
     }
-    return "The line is currently:" + line.join(". ")
+    return "The line is currently:" + line.join()
   }
 }
