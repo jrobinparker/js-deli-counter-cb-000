@@ -20,7 +20,7 @@ function nowServing(katzDeli) {
   }
 }
 
-function currentLine(katzDeli, person) {
+function currentLine(katzDeli) {
   var line = []
   if (katzDeli.length === 0) {
     return "The line is currently empty."
